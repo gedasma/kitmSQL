@@ -1,0 +1,7 @@
+CREATE TABLE User (
+    userId INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    userName VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    userTypeId INT NOT NULL,
+    FOREIGN KEY (userTypeId) REFERENCES UserType(userTypeId)
+);
