@@ -1,6 +1,6 @@
 INSERT INTO Event (eventId, eventName, eventCategoryId, eventTime, eventLocation, eventPicture, eventCreatorUserId)
 VALUES
-    (0, 'Science Symposium', 1, '2023-11-05 10:00:00', 'Science Center', 'event1.jpg', 1),
+    (0, 'Science SHOW', 1, '2024-11-05 10:00:00', 'Science Center', 'event11.jpg', 5),
     (0, 'Music Fest', 2, '2023-11-06 11:00:00', 'Park Arena', 'event2.jpg', 18),
     (0, 'Art Exhibition', 3, '2023-11-07 12:00:00', 'Art Gallery', 'event3.jpg', 3),
     (0, 'Theater Premiere', 4, '2023-11-08 13:00:00', 'City Theater', 'event4.jpg', 10),
